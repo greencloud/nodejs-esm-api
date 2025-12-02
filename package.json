@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-esm-api",
+  "version": "0.1.0",
+  "description": "Node.js + Express using ES Module structure",
+  "license": "ISC",
+  "author": "Aurelius Rasmus",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start-inspect": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "redis": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
